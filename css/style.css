@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.form-section{
+    width: 100%;
+    background-color:blue;
+    height: 100vh;
+}
+
+.container{
+    width:1140px;
+    margin:0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+  width: 900px;
+  height: 70vh;
+ background-color:white;
+ display: flex;   
+}
+
+.left-side, .right-side{
+  flex-basis: 50%;
+}
+.left-side{
+    background: url(../img/cc.jpg) center center no-repeat;
+    background-size: cover;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.right-side{
+padding: 5px 50px;
+margin: 0px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: white;
+}
+.right-side h1{
+text-align: center;
+margin-bottom: 8px;
+}
+.name input{
+    width: 48.6%;
+    }
+.name .first-name{
+    margin-right: 5px;
+  }
+.condition input{
+    width: auto;
+}
+input::placeholder, textarea::placeholder{
+font-family: poppins;
+}
+select{
+font-family: poppins;
+}
+
+
+
+
+
